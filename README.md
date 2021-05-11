@@ -55,11 +55,13 @@ cd兩個句點會回到上層目錄
 查閱分支
 ```
 >新增分支 - guest
->ex: $ git branch guest
+>  ex: $ git branch guest
+>
 >切換分支
->ex: $ git checkout guest
+>  ex: $ git checkout guest
+>
 >刪除分支
->ex: $ git branch -d guest
+>  ex: $ git branch -d guest
 
 ## Rebase 
 ```
