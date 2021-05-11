@@ -39,6 +39,7 @@ cd兩個句點會回到上層目錄
 新增內容至檔案中
 
 ![](https://i.imgur.com/n4WSE4i.png)
+
 有更新的檔案需push的話，需先add進入索引後commit，再push才OK
 
 
