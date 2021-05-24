@@ -55,7 +55,10 @@ cd兩個句點會回到上層目錄
 ## Branch
 
 * git branch
+
+>查閱分支
 ```
+<<<<<<< HEAD
 查閱分支
 ```
 >新增分支 - guest
@@ -64,12 +67,24 @@ cd兩個句點會回到上層目錄
 >ex: $ git checkout guest
 >刪除分支
 >ex: $ git branch -d guest
+=======
+新增分支 - guest
+ex: $ git branch guest
+
+切換分支
+ex: $ git checkout guest
+
+刪除分支
+ex: $ git branch -d guest
+```
+
 
 ## Rebase 
-```
-自我理解 : 有點抽薪替換的概念，新出來的code跟舊版本是否相容?
-用rebase回到舊版本測試看看(?)
-```
+
+>自我理解 : 有點抽薪替換的概念，新出來的code跟舊版本是否相容?
+>用rebase回到舊版本測試看看(?)
+>>>>>>> 22a694fc5102e0bda267171d116855f8405b5254
+
 ## Tags
 $ git tag -a [tag名稱]
 ```
